@@ -1,0 +1,56 @@
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+input[type="text"],input[type="solution"] {
+    width: 52%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px #81c9ff;
+}
+
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #84d49f, #c08fe7);
+    color:whitesmoke;
+}
+
+form {
+    width: 35rem;
+    margin: auto;
+    color:whitesmoke;
+    backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(0, 0, 0, 0.534);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+select {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px #c1a2fc;
+}
+
+input[type="submit"] {
+    width: 15%;
+    padding: 10px;
+    font-size: 16px;
+    background: linear-gradient(to right, #00b0ff, #e469c5);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px #c0c0c0;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+background: linear-gradient(to right, #0091ea, #00b0ff);
+}

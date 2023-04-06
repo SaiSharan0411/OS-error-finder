@@ -1,0 +1,19 @@
+section[id="Starting"]{
+    align-self: center;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(0, 0, 0, 0.534);
+    box-shadow: 1px 1px 5px #81c9ff;
+    align-items: center;
+}
+
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #d48484, #913bd8);
+    color:whitesmoke;
+}

@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" type="text/css" href="register.css">
+    </head>
+    <body>
+        <center><br><br>
+            <h2>New Code Registry</h2>
+            <h3>Enter New Error Code</h3>
+            <form action="register.php" method="post"><br><br>
+            <label for="ECODE">Enter new Error Code: </label>
+            <input type="text" name="ECODE" required>
+            <label for="version">Select the Windows Version: </label><br>
+            <select name="VERSION" id="version">
+            <option></option>
+            <option value="WINDOWS 8">windows 8 </option>
+            <option value="WINDOWS 10">windows 10</option>
+            <option value="WINDOWS 11">windows 11</option>
+            </select>
+            <label for="SOLUTION">Enter the solution: </label>
+            <input type="SOLUTION" name="SOLUTION" required><br><br>
+            <input type="submit" value="Submit"><br><br><br>
+            </form>
+        </center>
+    </body>
+</html>
